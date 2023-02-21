@@ -1,0 +1,39 @@
+.inner {
+    position: relative;
+    background-color: #fff;
+    width: 30%;
+    height: 80%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    border-bottom: 1px solid #ccc;
+}
+.tittle {
+    margin-left: 12px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.close {
+    margin-right: 12px;
+    cursor: pointer ;
+}
+
+.body {
+    margin-left: 12px;
+    margin-top: 32px;
+
+    p {
+        margin-bottom: 18px;
+        
+    }
+
+    b {
+        margin-left: 12px;
+        color: #FFB233;
+    }
+}
