@@ -1,0 +1,58 @@
+.wrapper {
+  
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    background-color: #0f5b9a;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 42px 0 66px;
+  }
+  
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  
+
+
+.left {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  button, a {
+    padding: 15px 22px;
+    
+  }
+}
+
+.icon-store {
+
+  position: relative;
+}
+
+.number {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 700;
+  color: #fff;
+  background: #ff9f00;
+  border-radius: 50%;
+  position: absolute;
+  right: -7px;
+  top: -3px;
+}
+
+  

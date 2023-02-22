@@ -1,0 +1,89 @@
+// ShowRoom
+
+
+.wrapper {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    top: 16px;
+    font-weight: 700;
+    font-size: 2rem;
+    cursor: grab;
+    background-color: #fff;
+    overflow-y: overlay;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #fff;
+    border-bottom:solid 1px #e1e1e1;
+    position: fixed;
+    flex-shrink: 1;
+    width: 60%;
+}
+
+.close {
+    margin-right: 12px;
+    cursor: pointer ;
+}
+
+.info {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 68px;
+}
+
+// item
+
+.container {
+    width: 50%;
+    padding: 16px;
+    font-size: 1.6rem;
+
+    p ~ p {
+        margin-bottom: 4px;
+    }
+    
+    span {
+        margin-left: 4px;
+    }
+}
+
+.tittle-item {
+   
+    span {
+        color: #2980b9;
+    }
+}
+
+.sell {
+    span {
+        color: #e74c3c;
+    }
+}
+
+.phone-number {
+    span {
+        color: #007bff;
+    }
+
+}
+
+.time {
+    span {
+        color: #e74c3c;
+
+    }
+}
+
+.map {
+    width: 96%;
+    object-fit: cover;
+}
+
