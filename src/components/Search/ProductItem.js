@@ -7,7 +7,6 @@ const cx = classNames.bind(styles)
 const item = PRODUCTS[0]
 
 function ProductItem() {
-  console.log(PRODUCTS);
     return (
       <div className={cx("content")}>
         <img className={cx("image")} alt="" src={item.productImg} />

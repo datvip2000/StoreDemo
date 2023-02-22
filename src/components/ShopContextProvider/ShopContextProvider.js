@@ -43,14 +43,14 @@ function ShopContextProvider({children}) {
 
   
   const getTotalCart = () => {
-    let totalAmount = 0;
+    let total = 0;
     for (const item in cartItem) {
       if (cartItem[item] > 0) {
-        let itemInfo = PRODUCTS.find((product) => product.id === Number(item));
-        totalAmount += cartItem[item];
+        PRODUCTS.find((product) => product.id === Number(item));
+        total += cartItem[item];
       }
     }
-    return totalAmount;
+    return total;
   };
 
   const deleteCartItems = (idItem) => {
