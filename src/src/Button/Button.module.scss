@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    padding: 18px 22px;
+    margin-right: 8px;
+    align-items: center;
+    border-radius: 666px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: var(--font-family);
+    border: 1px solid transparent;
+}
+
+.primary {
+    background-color:#0c3175;
+
+}
+.repeating {
+    background:repeating-linear-gradient(to right, #fd9a02 0, #a72347 25%, #0d3175 50%, #a72347 75%, #fd9a02 100%); 
+    color:#fff;
+    background-size:200% auto;
+    animation:2s linear infinite forwards gradient;
+    
+}
+
+@keyframes gradient {
+    0% {background-position:0 0}
+    100% {background-position:-200% 0}
+}
+
+
+.icon {
+   margin-right: 4px;
+}
+.text {
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
